@@ -1,0 +1,18 @@
+.errorpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.errorcode {
+    font-size: 5rem;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+.errormessage {
+    margin-top: 10px;
+    font-weight: bold;
+}

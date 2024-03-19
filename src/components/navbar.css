@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.892); */
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    width: 90%;
+}
+.logo{
+
+}
+.logo > img {
+    margin: 5px 10px;
+}
+
+.items > ul{
+    list-style: none;
+    margin-right: 20px;
+}
+.items > ul > a {
+    padding: 2px 4px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+.items > ul > a:hover {
+    color: rgb(232, 92, 99);
+}
